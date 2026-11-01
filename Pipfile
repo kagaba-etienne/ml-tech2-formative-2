@@ -8,8 +8,15 @@ numpy = "*"
 pandas = "*"
 scikit-learn = "*"
 scipy = "*"
+ipykernel = "*"
+jupyterlab = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
+
+[scripts]
+notebook = "jupyter lab --no-browser"
 
 [requires]
 python_version = "3.14"
